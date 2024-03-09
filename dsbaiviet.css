@@ -1,0 +1,56 @@
+.menu {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu:hover {
+    border-bottom-style: solid;
+    border-bottom-color: brown;
+    border-bottom-width: 4px;
+}
+
+.dsbaiviet {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dsbaiviet img {
+    width: 45%;
+    border-radius: 8px;
+}
+
+.nutbam {
+    margin: 60px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(255, 174, 0);
+    color: white;
+    border-radius: 6px;
+    margin-left: 50px;
+}
+
+.nutbam:hover {
+    background-color: rgb(255, 42, 0);
+    color: rgb(14, 14, 14);
+}
+
+.baiviet {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+    div .menu {
+        font-size: 14px;
+    }
+
+    .dsbaiviet {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+div>a{
+    background-color: aqua;
+}
