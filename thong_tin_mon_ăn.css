@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center; /* căn giữa nội dung bảng */
+}
+
+td {
+    padding: 10px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}

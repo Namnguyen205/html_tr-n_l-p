@@ -1,0 +1,88 @@
+body {
+    background-image: url("https://img.freepik.com/premium-vector/chinese-new-year-dinner-reunion-eating-hot-pot-background-with-various-food-auspicious-clouds_432516-3657.jpg?w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.menu {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    /* căn giữa nội dung bảng */
+}
+
+.menu:hover {
+    border-bottom-style: solid;
+    border-bottom-color: rgb(165, 42, 42);
+    border-bottom-width: 4px;
+}
+
+.dsbaiviet {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.dsbaiviet img {
+    width: 45%;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nutbam {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #3498db; /* Màu nền mặc định */
+    color: #fff; /* Màu chữ mặc định */
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.nutbam:hover {
+    background-color: rgb(255, 42, 0);
+    color: rgb(14, 14, 14);
+}
+
+.nutbam:active {
+    border-radius: 4px; /* Bo góc khi nhấn chuột vào */
+}
+
+.baiviet {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+    div .menu {
+        font-size: 14px;
+    }
+
+    .dsbaiviet {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+a {
+    text-align: center;
+}
